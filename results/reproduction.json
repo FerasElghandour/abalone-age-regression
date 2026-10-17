@@ -1,0 +1,31 @@
+{
+  "slug": "abalone-age-regression",
+  "date": "2026-10-17",
+  "notebook_sha256": "53b5115285612dca3ea839a57808fbaa14ce3abeef92703b5d0522bdacf22930",
+  "code_cells": 16,
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "torch": "2.14.1",
+  "sklearn": "1.9.1",
+  "inputs": {
+    "abalone.csv": "50126af5ea3554ef637579b40f120be68e26aaa1d354df1e1f0e90775f629b44"
+  },
+  "metrics": {
+    "bl_metrics": {
+      "MAE": 1.5905617539006116,
+      "RMSE": 2.2161554998121638,
+      "R\u00b2": 0.5695821058264763
+    },
+    "rf_metrics": {
+      "MAE": 1.5480808714973795,
+      "RMSE": 2.2185607006860173,
+      "R\u00b2": 0.5686473309239202
+    }
+  },
+  "plots": [
+    "figure-01.png",
+    "figure-02.png",
+    "figure-03.png"
+  ],
+  "status": "passed"
+}

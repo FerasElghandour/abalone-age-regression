@@ -72,3 +72,7 @@ python scripts/validate_source.py
 ## Limitations
 
 Two zero-height rows are excluded. This is a single random split of one historical dataset; ring-count prediction is not a validated conservation or harvest intervention.
+
+## Reuse
+
+The original contributions listed in [LICENSING.md](LICENSING.md) are available under [MIT](LICENSE). This scoped grant preserves upstream notices and separate dataset, simulator, notebook and checkpoint terms.

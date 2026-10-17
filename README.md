@@ -8,6 +8,15 @@ Train-fitted numeric/categorical preprocessing, a linear baseline, five-fold ran
 
 ![Implementation mechanism: Measurements and sex category → Remove zero-height records then split → Fit scaling and encoding on training rows → Linear baseline or cross-validated forest → Held-out MAE and RMSE with group errors](assets/mechanism.svg)
 
+
+
+## Reproduce the full model comparison
+
+The complete retained notebook has been rerun on the real 4,177-row source table through a noninteractive input-aware driver, with source/input hashes, logs and fitted-model export.
+
+[Commands, artifacts and benchmark scope](BENCHMARKS.md) · [Versioned profiles](reproduction.json)
+
+
 ## Try a small example
 
 Generated measurements exercise a baseline preprocessing and regression pattern adapted from the notebook. This does not rerun the UCI dataset experiment or its forest search.

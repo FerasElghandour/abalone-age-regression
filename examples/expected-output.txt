@@ -1,0 +1,6 @@
+{
+  "fixture": "generated measurements",
+  "train_rows": 48,
+  "test_rows": 12,
+  "mae": 0.07349028610960955
+}
